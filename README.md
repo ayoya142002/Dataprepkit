@@ -25,7 +25,7 @@ from data_cleaning_tool import DataHandler
 
 handler = DataHandler()
 handler.main()
-
+---
 
 
 💬 You’ll be prompted to:
@@ -37,7 +37,7 @@ Choose how to handle missing values
 Automatically encode categorical columns
 
 Get the final data summary and cleaned output
-
+---
 🛠️ Technologies Used
 
 Python
@@ -47,7 +47,7 @@ Pandas
 NumPy
 
 Scikit-learn (for ColumnTransformer & OneHotEncoder)
-
+---
 📊 Example Output
 Data Summary:
 Number of Rows: 1000
