@@ -1,3 +1,4 @@
+#ش
 # Dataprepkit
 # 🧹 Data Cleaning & Preprocessing Tool
 ### 👩‍💻 Developed by [Aya Gamal](https://linkedin.com/in/aya-gamal-senara)
@@ -25,30 +26,28 @@ from data_cleaning_tool import DataHandler
 
 handler = DataHandler()
 handler.main()
+```
+
 ---
 
+## 💬 You’ll be prompted to:
+1. Enter your dataset path  
+2. Choose how to handle missing values  
+3. Automatically encode categorical columns  
+4. Get the final data summary and cleaned output  
 
-💬 You’ll be prompted to:
-
-Enter your dataset path
-
-Choose how to handle missing values
-
-Automatically encode categorical columns
-
-Get the final data summary and cleaned output
 ---
-🛠️ Technologies Used
 
-Python
+## 🛠️ Technologies Used
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Scikit-learn (for ColumnTransformer & OneHotEncoder)**
 
-Pandas
-
-NumPy
-
-Scikit-learn (for ColumnTransformer & OneHotEncoder)
 ---
-📊 Example Output
+
+## 📊 Example Output
+```
 Data Summary:
 Number of Rows: 1000
 Number of Columns: 10
@@ -57,17 +56,18 @@ Most Frequent Value [Gender]: Male
 Standard Deviation [Salary]: 4567.2
 Skewness [Experience]: 0.42
 ...
+```
 
-📚 Future Improvements
+---
 
-Add export feature for cleaned data (to CSV)
+## 📚 Future Improvements
+- Add export feature for cleaned data (to CSV)
+- Add outlier detection & handling
+- Add correlation matrix visualization
 
-Add outlier detection & handling
+---
 
-Add correlation matrix visualization
+## 🔗 Connect
+📧 [ayagama662@gmail.com](mailto:ayagama662@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/aya-gamal-senara)
 
-🔗 Connect
-
-📧 ayagama662@gmail.com
-
-🔗 LinkedIn
